@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "Just a trial app",
+    "notification": {
+      "iosDisplayInForeground": true
+    }
+  }
+}
